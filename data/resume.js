@@ -1,10 +1,10 @@
 export const skillGroups = [
-  ['Programming languages', 'Core application development', ['Python', 'JavaScript', 'Java', 'SQL']],
-  ['Frontend development', 'Client interfaces and dashboards', ['React', 'Next.js', 'Vite', 'TypeScript']],
-  ['Backend development', 'APIs and long-running workflows', ['Django', 'Django REST', 'FastAPI', 'Node.js', 'Express']],
-  ['AI engineering', 'Generation and model integration', ['Gemini', 'Llama 3.1', 'OpenRouter', 'TTS']],
-  ['Data and media tooling', 'Processing and rendering workflows', ['Manim', 'FFmpeg', 'caching', 'rate limiting']],
-  ['Deployment and infrastructure', 'Delivery and managed services', ['Docker', 'AWS', 'Firebase', 'Render.com', 'Git/GitHub']],
+  ['Programming languages', 'Languages I use to write software.', ['Python', 'JavaScript', 'Java', 'SQL']],
+  ['Frontend development', 'Tools for websites and interfaces.', ['React', 'Next.js', 'Vite', 'TypeScript']],
+  ['Backend development', 'Tools for servers and APIs.', ['Django', 'Django REST', 'FastAPI', 'Node.js', 'Express']],
+  ['AI engineering', 'Models and tools for AI features.', ['Gemini', 'Llama 3.1', 'OpenRouter', 'TTS']],
+  ['Data and media tooling', 'Tools for processing data, audio, and video.', ['Manim', 'FFmpeg', 'caching', 'rate limiting']],
+  ['Deployment and infrastructure', 'Tools for hosting and storing apps.', ['Docker', 'AWS', 'Firebase', 'Render.com', 'Git/GitHub']],
 ];
 
 export const education = [

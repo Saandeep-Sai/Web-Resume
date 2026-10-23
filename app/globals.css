@@ -50,4 +50,15 @@ a:focus-visible,button:focus-visible { outline:3px solid var(--accent); outline-
   .milestone-timeline { width:auto; }
   .milestone-card,.milestone-top .milestone-card,.milestone-bottom .milestone-card { height:auto; }
 }
+.all-projects-intro { padding-top:42px; }
+.all-projects-intro h1 { margin:10px 0; }
+.all-projects-intro>p:not(.kicker) { max-width:620px; color:var(--muted); }
+.all-projects-intro .text-link { margin-top:8px; }
+.all-projects-section .section-heading { margin-bottom:16px; }
+.all-projects-section .section-heading h2 { font-size:clamp(1.45rem,2.1vw,2rem); }
+.all-projects-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.all-projects-grid .project-card { min-height:0; }
+.all-projects-link { margin:18px 0 0; }
+@media (max-width:1000px) { .all-projects-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:620px) { .all-projects-grid { grid-template-columns:1fr; } }
 @media (prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important; transition-duration:.01ms!important; animation-duration:.01ms!important; animation-iteration-count:1!important; } }
